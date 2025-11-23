@@ -1,0 +1,6 @@
+@echo off
+echo Installing required packages...
+pip install -r requirements.txt
+echo Starting DEI Platform...
+streamlit run main_app.py
+pause
